@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "updated": "2026-05-07T00:00:00-04:00",
+  "author": {
+    "name": "apps.json",
+    "url": "https://apps-json.org"
+  },
+  "apps": [
+    {
+      "id": "apps-json-agent-skills",
+      "name": "apps.json Agent Skills",
+      "url": "https://github.com/itsbdell/apps-json-agent-skills",
+      "description": "Agent-readable skills for bootstrapping and maintaining apps.json feeds.",
+      "tags": ["apps-json", "agent-skills", "publishing"],
+      "source": "https://github.com/itsbdell/apps-json-agent-skills",
+      "forkable": true,
+      "targets": [
+        {
+          "kind": "codex-skill",
+          "url": "https://github.com/itsbdell/apps-json-agent-skills/tree/main/skills/apps-json-setup",
+          "label": "Setup skill"
+        },
+        {
+          "kind": "codex-skill",
+          "url": "https://github.com/itsbdell/apps-json-agent-skills/tree/main/skills/apps-json-publisher",
+          "label": "Publisher skill"
+        },
+        {
+          "kind": "claude-skill",
+          "url": "https://github.com/itsbdell/apps-json-agent-skills/tree/main/skills/apps-json-setup",
+          "label": "Setup skill"
+        },
+        {
+          "kind": "claude-skill",
+          "url": "https://github.com/itsbdell/apps-json-agent-skills/tree/main/skills/apps-json-publisher",
+          "label": "Publisher skill"
+        }
+      ],
+      "updated": "2026-05-07T00:00:00-04:00"
+    }
+  ]
+}
+
