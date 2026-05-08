@@ -13,11 +13,15 @@ Rules:
 - Do not scan private or unrelated folders unless I explicitly name them.
 - Do not invent public URLs, dates, versions, claims, social handles, or trust
   badges.
-- Add only evidence-backed entries to apps.json.
+- Add only evidence-backed entries to apps.json, including evidence that a skill
+  or agent workflow is creator/workspace-authored rather than installed from a
+  marketplace, plugin cache, or vendored third-party source.
 - Put uncertain items in a needs-confirmation list with the question that would
   unblock each one.
 - Preserve existing feed entries and unknown fields.
 - Validate the feed with npx @apps-json/cli validate ./apps.json.
+- Use examples/skill-discovery-fixture.md as a reference for classifying
+  Claude/Codex skill candidates.
 
 Finish with:
 - feed path changed,
@@ -27,4 +31,3 @@ Finish with:
 - validation result,
 - suggested next publishing step.
 ```
-
