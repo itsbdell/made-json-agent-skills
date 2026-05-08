@@ -1,0 +1,28 @@
+{
+  "name": "apps-json",
+  "version": "0.1.0",
+  "description": "Skills for bootstrapping and maintaining apps.json feeds.",
+  "author": {
+    "name": "apps.json",
+    "url": "https://apps-json.org"
+  },
+  "homepage": "https://github.com/itsbdell/apps-json-agent-skills",
+  "repository": "https://github.com/itsbdell/apps-json-agent-skills",
+  "license": "MIT",
+  "keywords": ["apps-json", "agent-skills", "publishing", "feeds"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "apps.json",
+    "shortDescription": "Create and maintain apps.json feeds with agent skills.",
+    "longDescription": "Agent-readable setup and publisher skills for discovering creator-made software, drafting evidence-backed apps.json feeds, maintaining existing feeds, and validating changes before publication.",
+    "developerName": "apps.json",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://apps-json.org",
+    "defaultPrompt": [
+      "Create an apps.json feed for this workspace.",
+      "Update and validate this apps.json feed."
+    ],
+    "brandColor": "#0F766E"
+  }
+}

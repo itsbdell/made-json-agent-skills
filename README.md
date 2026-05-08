@@ -5,7 +5,8 @@ Small, agent-readable skills for creating and maintaining `apps.json` feeds.
 This repo is the canonical agent-facing distribution surface for the setup and
 publisher skills around the main
 [`apps-json`](https://github.com/itsbdell/apps-json) project. It is meant to be
-easy to point an agent at:
+easy to install as a Claude Code or Codex plugin, or to point an agent at
+directly:
 
 ```text
 Read this repo, then use the apps-json-setup skill to inventory my workspace and
@@ -18,6 +19,73 @@ draft an apps.json feed.
 | --- | --- |
 | [`apps-json-setup`](skills/apps-json-setup/SKILL.md) | Bootstrapping an initial feed from a workspace, creator profile, repo set, public app index, or source inventory. |
 | [`apps-json-publisher`](skills/apps-json-publisher/SKILL.md) | Maintaining an existing feed after new apps, skills, CLIs, MCP servers, extensions, or templates ship. |
+
+## Install
+
+### Claude Code
+
+Add this repository as a Claude Code marketplace, then install the plugin:
+
+```text
+/plugin marketplace add itsbdell/apps-json-agent-skills
+/plugin install apps-json@apps-json
+```
+
+For local development, load the plugin directly from the repository root:
+
+```bash
+claude --plugin-dir .
+```
+
+After installing or editing the plugin, run:
+
+```text
+/reload-plugins
+```
+
+Claude Code exposes bundled skills under the plugin namespace:
+
+```text
+/apps-json:apps-json-setup
+/apps-json:apps-json-publisher
+```
+
+### Codex
+
+Install the repository as a Codex plugin:
+
+```bash
+npx codex-marketplace add itsbdell/apps-json-agent-skills --plugin --project
+```
+
+For a global install, use:
+
+```bash
+npx codex-marketplace add itsbdell/apps-json-agent-skills --plugin --global
+```
+
+Codex also supports installing only the standalone skills:
+
+```bash
+npx codex-marketplace add itsbdell/apps-json-agent-skills --skills --project
+```
+
+## Marketplace Submission
+
+This repo includes both plugin manifests:
+
+- Claude Code: [`.claude-plugin/plugin.json`](.claude-plugin/plugin.json)
+- Codex: [`.codex-plugin/plugin.json`](.codex-plugin/plugin.json)
+
+It also includes a Claude marketplace catalog at
+[`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json), so users
+can add this GitHub repository as a marketplace directly.
+
+For broader marketplace listing:
+
+- Submit the Claude plugin through Anthropic's Claude plugin submission flow.
+- Submit the Codex plugin by entering this repository URL in the Codex
+  Marketplace submission flow.
 
 ## Quick Prompts
 

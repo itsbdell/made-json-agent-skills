@@ -1,0 +1,13 @@
+{
+  "name": "apps-json",
+  "description": "Skills for bootstrapping and maintaining apps.json feeds.",
+  "version": "0.1.0",
+  "author": {
+    "name": "apps.json",
+    "url": "https://apps-json.org"
+  },
+  "homepage": "https://github.com/itsbdell/apps-json-agent-skills",
+  "repository": "https://github.com/itsbdell/apps-json-agent-skills",
+  "license": "MIT",
+  "keywords": ["apps-json", "agent-skills", "publishing", "feeds"]
+}
