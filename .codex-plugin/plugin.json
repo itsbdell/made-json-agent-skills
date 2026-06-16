@@ -9,7 +9,7 @@
   "homepage": "https://github.com/itsbdell/made-json-agent-skills",
   "repository": "https://github.com/itsbdell/made-json-agent-skills",
   "license": "MIT",
-  "keywords": ["made-json", "apps-json", "agent-skills", "publishing", "feeds"],
+  "keywords": ["made-json", "agent-skills", "publishing", "feeds"],
   "skills": "./skills/",
   "interface": {
     "displayName": "made.json",

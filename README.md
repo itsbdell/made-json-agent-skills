@@ -4,7 +4,7 @@ Small, agent-readable skills for creating and maintaining `made.json` feeds.
 
 This repo is the canonical agent-facing distribution surface for the setup and
 publisher skills around the main
-[`apps-json`](https://github.com/itsbdell/made-json) project. It is meant to be
+[`made-json`](https://github.com/itsbdell/made-json) project. It is meant to be
 easy to install as a Claude Code or Codex plugin, or to point an agent at
 directly:
 
@@ -28,7 +28,7 @@ Add this repository as a Claude Code marketplace, then install the plugin:
 
 ```text
 /plugin marketplace add itsbdell/made-json-agent-skills
-/plugin install made-json@apps-json
+/plugin install made-json@made-json
 ```
 
 For local development, load the plugin directly from the repository root:
@@ -153,7 +153,7 @@ the main repo:
 
 - Spec: https://github.com/itsbdell/made-json/blob/main/spec/SPEC.md
 - Publishing docs: https://github.com/itsbdell/made-json/blob/main/docs/PUBLISHING.md
-- CLI: https://www.npmjs.com/package/@apps-json/cli
+- CLI, temporary package name: https://www.npmjs.com/package/@apps-json/cli
 
 The skill text in this repo is the canonical agent-facing copy. The main repo
 may mirror the same `SKILL.md` files for reference, but changes to setup or
