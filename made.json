@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "updated": "2026-06-16T00:00:00-04:00",
+  "author": {
+    "name": "made.json",
+    "url": "https://made-json.org"
+  },
+  "items": [
+    {
+      "id": "made-json-agent-skills",
+      "name": "made.json Agent Skills",
+      "kind": "skill",
+      "url": "https://github.com/itsbdell/made-json-agent-skills",
+      "description": "Agent-readable skills for bootstrapping and maintaining made.json feeds.",
+      "tags": ["made-json", "agent-skills", "publishing"],
+      "source": "https://github.com/itsbdell/made-json-agent-skills",
+      "forkable": true,
+      "targets": [
+        {
+          "kind": "claude-plugin",
+          "url": "https://github.com/itsbdell/made-json-agent-skills",
+          "label": "Claude Code plugin"
+        },
+        {
+          "kind": "codex-plugin",
+          "url": "https://github.com/itsbdell/made-json-agent-skills",
+          "label": "Codex plugin"
+        },
+        {
+          "kind": "codex-skill",
+          "url": "https://github.com/itsbdell/made-json-agent-skills/tree/main/skills/made-json-setup",
+          "label": "Setup skill"
+        },
+        {
+          "kind": "codex-skill",
+          "url": "https://github.com/itsbdell/made-json-agent-skills/tree/main/skills/made-json-publisher",
+          "label": "Publisher skill"
+        },
+        {
+          "kind": "claude-skill",
+          "url": "https://github.com/itsbdell/made-json-agent-skills/tree/main/skills/made-json-setup",
+          "label": "Setup skill"
+        },
+        {
+          "kind": "claude-skill",
+          "url": "https://github.com/itsbdell/made-json-agent-skills/tree/main/skills/made-json-publisher",
+          "label": "Publisher skill"
+        }
+      ]
+    }
+  ]
+}

@@ -1,26 +1,26 @@
 {
-  "name": "apps-json",
-  "description": "Agent workflows for creating and maintaining apps.json feeds.",
+  "name": "made-json",
+  "description": "Agent workflows for creating and maintaining made.json feeds.",
   "owner": {
-    "name": "apps.json"
+    "name": "made.json"
   },
   "plugins": [
     {
-      "name": "apps-json",
+      "name": "made-json",
       "source": {
         "source": "github",
-        "repo": "itsbdell/apps-json-agent-skills"
+        "repo": "itsbdell/made-json-agent-skills"
       },
-      "description": "Skills for bootstrapping and maintaining apps.json feeds.",
+      "description": "Skills for bootstrapping and maintaining made.json feeds.",
       "version": "0.1.0",
       "author": {
-        "name": "apps.json",
-        "url": "https://apps-json.org"
+        "name": "made.json",
+        "url": "https://made-json.org"
       },
-      "homepage": "https://github.com/itsbdell/apps-json-agent-skills",
-      "repository": "https://github.com/itsbdell/apps-json-agent-skills",
+      "homepage": "https://github.com/itsbdell/made-json-agent-skills",
+      "repository": "https://github.com/itsbdell/made-json-agent-skills",
       "license": "MIT",
-      "keywords": ["apps-json", "agent-skills", "publishing", "feeds"],
+      "keywords": ["made-json", "apps-json", "agent-skills", "publishing", "feeds"],
       "category": "productivity"
     }
   ]
