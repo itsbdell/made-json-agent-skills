@@ -1,6 +1,6 @@
 # Skill Discovery Fixture
 
-Use this as a tiny smoke fixture when checking whether `apps-json-setup`
+Use this as a tiny smoke fixture when checking whether `made-json-setup`
 correctly finds Claude/Codex skills without over-publishing installed or copied
 third-party artifacts.
 
@@ -8,7 +8,7 @@ third-party artifacts.
 
 ```text
 workspace/
-  apps.json
+  made.json
   README.md
   skills/
     writer-helper/
