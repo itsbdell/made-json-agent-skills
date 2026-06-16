@@ -15,7 +15,7 @@ Rules:
   creator-declared claims, not endorsements.
 - Update feed-level updated when the file changes.
 - Update item-level updated when adding or materially changing an item.
-- Validate with npx @apps-json/cli validate ./made.json.
+- Validate with npx @made-json/cli validate ./made.json.
 
 Finish with:
 - the item id/name added or updated,

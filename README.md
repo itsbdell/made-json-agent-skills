@@ -117,7 +117,7 @@ validation before finishing and report what changed.
 Use the reference CLI from the main project:
 
 ```bash
-npx @apps-json/cli validate ./made.json
+npx @made-json/cli validate ./made.json
 ```
 
 The feed should be served publicly at:
@@ -153,7 +153,7 @@ the main repo:
 
 - Spec: https://github.com/itsbdell/made-json/blob/main/spec/SPEC.md
 - Publishing docs: https://github.com/itsbdell/made-json/blob/main/docs/PUBLISHING.md
-- CLI, temporary package name: https://www.npmjs.com/package/@apps-json/cli
+- CLI: https://www.npmjs.com/package/@made-json/cli
 
 The skill text in this repo is the canonical agent-facing copy. The main repo
 may mirror the same `SKILL.md` files for reference, but changes to setup or

@@ -19,7 +19,7 @@ Rules:
 - Put uncertain items in a needs-confirmation list with the question that would
   unblock each one.
 - Preserve existing feed entries and unknown fields.
-- Validate the feed with npx @apps-json/cli validate ./made.json.
+- Validate the feed with npx @made-json/cli validate ./made.json.
 - Use examples/skill-discovery-fixture.md as a reference for classifying
   Claude/Codex skill candidates.
 
